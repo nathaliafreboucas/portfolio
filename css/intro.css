@@ -1,0 +1,40 @@
+.introducao{
+   display: flex;
+   margin: 2rem 8rem 0 8rem;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.mini_sobre h1{
+    font-size: 3.0rem;  
+    margin-bottom: 2rem; 
+}
+.mini_sobre p{
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+.links_redes_curriculo{
+    display: flex;
+    justify-content: flex-start;
+}
+.links_redes_curriculo li a{
+    text-decoration: none;
+    color: inherit;
+    margin-right: 2rem;
+    transition: 200ms;
+
+}
+.links_redes_curriculo li a:hover{
+    color: rgb(163, 163, 245);
+    border-bottom: 3px solid #06045b;
+}
+#avatar{
+    height: 300px;
+    border-radius: 50%;
+    transition: 400ms;
+}
+#avatar:hover{
+    box-shadow: 15px 10px #06045b, 2em 1em  rgb(163, 163, 245);
+    height:335px;
+    transform: scale(1.03);
+}

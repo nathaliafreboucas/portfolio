@@ -1,0 +1,44 @@
+.skills h2, .hobbies h2{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+.conteudo_skills, .conteudo_hobbies{
+    display: grid;
+    grid-template-columns: 16.5% 16.5% 16.5% 16.5% 16.5% 16.5%;
+    gap: 1.8rem;
+    height: 340px;
+    justify-content: center;
+    align-items: center;
+}
+.html{
+    grid-column: 2;
+}
+.tocar{
+    grid-column: 2;
+}
+.box_itens{
+    background-color: #a09eff;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 0 1rem 1.4rem;
+    border-radius: 15px;
+    transition: 400ms;
+
+}
+.box_itens:hover{
+    box-shadow: 15px 10px #06045b;
+    width:105%;
+    transform: scale(1.03)
+}
+.box_itens img{
+    height: 25px;
+    padding-bottom: 0.5rem;
+}
+.box_itens p{
+    font-size: 0.8rem;
+}

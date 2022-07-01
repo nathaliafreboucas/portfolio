@@ -1,0 +1,145 @@
+@media (max-width: 480px) {
+    .logotipo {
+        margin: auto;
+    }
+
+    .navegacao {
+        display: none;
+    }
+
+    .email_contato {
+        display: inline-block;
+    }
+
+    .introducao {
+        flex-direction: column-reverse;
+        margin: 0;
+        width: 100%;
+    }
+
+    .div_avatar {
+        display: flex;
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 2.3rem;
+        margin: 1.5rem 0;
+    }
+
+    #avatar {
+        width: 130px;
+        height: 130px;
+    }
+
+    .mini_sobre {
+        padding: 0 5%
+    }
+
+    .mini_sobre h1 {
+        font-size: 1.6rem;
+    }
+
+    .links_redes_curriculo {
+        justify-content: center;
+    }
+
+    #last_child {
+        margin: 0;
+    }
+
+    .sobre {
+        height: 30rem;
+        padding: 0 6%;
+    }
+
+    .sobre_conteudo {
+        width: 100%;
+    }
+
+    .conteudo_skills,
+    .conteudo_hobbies {
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 40% 40%;
+        gap: 1.8rem;
+        margin-top: 1.3rem;
+    }
+
+    .html {
+        grid-column: 1;
+    }
+
+    .tocar {
+        grid-column: 1;
+    }
+
+    .conteudo_formacao {
+        display: flex;
+        flex-direction: column;
+        height: 55rem;
+    }
+
+    .formacao_itens {
+        width: 80%;
+        height: 15rem;
+        margin: 2% 6%;
+    }
+
+    .barbearia,
+    .crip,
+    .jogo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div_botoes,
+    .div_imagem {
+        width: 80%;
+    }
+
+    .div_imagem_conteudo {
+        display: none;
+    }
+
+    .div_form {
+        width: 80%;
+    }
+
+    #botao-form {
+        width: 45%;
+    }
+
+    .rodape {
+        padding-top: 0;
+
+    }
+}
+
+@media(max-width:820px) {
+    .cabecalho{
+        justify-content: space-around;
+    }
+    .logotipo{
+        margin-left: 0;
+    }
+    #last_child{
+        margin-right: 3rem;
+    }
+    .introducao{
+        margin: 2rem 0rem 0 0rem;
+        justify-content: space-around;
+    }
+    .mini_sobre{
+        width: 60%;
+    }
+    .introducao h1{
+        font-size: 2rem;
+    }
+    #avatar{
+        width: 12rem;
+        height: 12rem;
+    }
+    .sobre_conteudo{
+        width: 90%;
+    }
+
+}

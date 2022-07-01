@@ -1,0 +1,25 @@
+.sobre{
+    background-color: #06045b;
+    height: 23rem; /*verificar altura depois*/
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.sobre_conteudo{
+    color: #F5F5F5;
+    width: 60%;
+    height: fit-content;
+    align-self: center;
+
+}
+.sobre_conteudo h2{
+    font-size: 2rem;
+    line-height: 5rem;
+}
+.sobre_conteudo p{
+    font-weight: 200;
+}
+.sobre_conteudo .ass{
+    font-weight: 100;
+    line-height: 2rem;
+}
