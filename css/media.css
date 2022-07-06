@@ -29,6 +29,10 @@
         width: 130px;
         height: 130px;
     }
+    #avatar:hover{
+        height: 130px;
+        box-shadow: none;
+    }
 
     .mini_sobre {
         padding: 0 5%
@@ -137,6 +141,11 @@
     #avatar{
         width: 12rem;
         height: 12rem;
+    }
+    #avatar:hover{
+        width: 12rem;
+        height: 12rem;
+        box-shadow: none;
     }
     .sobre_conteudo{
         width: 90%;
