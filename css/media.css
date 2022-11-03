@@ -79,7 +79,6 @@
     .conteudo_formacao {
         display: flex;
         flex-direction: column;
-        height: 55rem;
     }
 
     .formacao_itens {
