@@ -17,11 +17,15 @@ html{
     grid-area: cabecalho;
     width: 100%;
     height: 60px;
-    background: #F5F5F5;
+    background: #F5F5F5; 
+}
+.logo-navegacao{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center;  
+    width: 90%; 
+    max-width: 1242px;
+    margin: auto;
 }
 .conteudo{
     grid-area: conteudo;

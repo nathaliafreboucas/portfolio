@@ -8,16 +8,16 @@
     padding-top: 2rem;
 }
 .conteudo_formacao{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     flex-wrap: wrap;
     gap:1rem;
     padding: 5rem 0;
     margin: auto;
     width: 90%;
+    max-width: 1242px;
 }
 .formacao_itens{
-    width: 30%;
     background-color: #fdfdfd;
     display: flex;
     flex-direction: column;

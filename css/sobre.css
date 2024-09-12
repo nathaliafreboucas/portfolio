@@ -10,7 +10,7 @@
     width: 60%;
     height: fit-content;
     align-self: center;
-
+    max-width: 1242px;
 }
 .sobre_conteudo h2{
     font-size: 2rem;

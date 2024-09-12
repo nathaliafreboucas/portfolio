@@ -1,4 +1,4 @@
-@media screen and (max-width:480px){
+@media screen and (max-width:800px){
     .logotipo {
         margin: auto;
     }
@@ -62,18 +62,9 @@
     .conteudo_skills,
     .conteudo_hobbies {
         display: grid;
-        grid-template-columns: 40% 40%;
-        grid-template-rows: 40% 40%;
+        grid-template-columns: 1fr 1fr;
         gap: 1.8rem;
-        margin-top: 1.3rem;
-    }
-
-    .html {
-        grid-column: 1;
-    }
-
-    .tocar {
-        grid-column: 1;
+        width: 90%;
     }
 
     .conteudo_formacao {
@@ -87,9 +78,7 @@
         margin: 2% 6%;
     }
 
-    .barbearia,
-    .crip,
-    .jogo {
+    .section-item-experiencia{
         flex-direction: column;
         align-items: center;
     }
@@ -117,7 +106,7 @@
     }
 }
 
-@media screen and (min-width: 481px) and (max-width: 921px){
+@media screen and (min-width: 800px) and (max-width: 921px){
     .cabecalho{
         justify-content: space-around;
     }
@@ -128,7 +117,6 @@
         margin-right: 3rem;
     }
     .introducao{
-        margin: 2rem 0rem 0 0rem;
         justify-content: space-around;
     }
     .mini_sobre{

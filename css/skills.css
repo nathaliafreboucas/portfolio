@@ -5,17 +5,11 @@
 }
 .conteudo_skills, .conteudo_hobbies{
     display: grid;
-    grid-template-columns: 16.5% 16.5% 16.5% 16.5% 16.5% 16.5%;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 1.8rem;
-    height: 340px;
-    justify-content: center;
-    align-items: center;
-}
-.html{
-    grid-column: 2;
-}
-.tocar{
-    grid-column: 2;
+    max-width: 1242px;
+    margin: 2rem auto 2rem auto;
+    width: 70%;
 }
 .box_itens{
     background-color: #a09eff;

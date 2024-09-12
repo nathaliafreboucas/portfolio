@@ -1,8 +1,11 @@
 .introducao{
    display: flex;
-   margin: 2rem 8rem 0 8rem;
-   justify-content: space-between;
+   gap: 2em;
+   justify-content: center;
    align-items: center;
+   width: 90%;
+   max-width: 1242px;
+   margin: auto;
 }
 
 .mini_sobre h1{
