@@ -1,7 +1,6 @@
 .logotipo{
     display: flex;
     align-items: center;
-    margin-left: 8rem;
 }
 .logotipo img{
     width: 3rem;
@@ -22,8 +21,7 @@
     transition: 400ms;
 }
 #last_child{
-    margin-right: 8rem;
-
+    margin-right: 0;
 }
 .email_contato{
     display: none;

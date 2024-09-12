@@ -8,21 +8,27 @@
     grid-template-areas: 
         "barbearia"
         "crip"
-        "jogo";
+        "jogo"
+        "ecommerce"
+        "codechella"
+        "todo";
     grid-template-columns: 100%;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
     gap: 5rem;
     padding-top: 5.5rem;
+    width: 90%;
+    max-width: 1242px;
+    margin: auto;
 }
 .barbearia{
     grid-area: barbearia;
     display: flex;
     justify-content: center;
 }
-.div_imagem{width: 40%; }
+.div_imagem{width: 50%; }
 .div_imagem img{width: 100%; border-radius: 15px;}
 .div_imagem img:hover{ border: 5px solid #06045b; transition: 300ms;}
-.div_botoes{line-height: 2rem; width: 40%; display: flex; flex-direction:column; align-items: flex-end;}
+.div_botoes{line-height: 2rem; width: 50%; display: flex; flex-direction:column; align-items: flex-end; gap: .3rem}
 .div_botoes h3{font-size: 2rem;}
 #excecao-experiencia{
     display: flex;
@@ -47,12 +53,31 @@
 }
 .crip{
     grid-area: crip;
-    display: flex;
     flex-direction: row-reverse;
-    justify-content: center;
 }
 .jogo{
     grid-area: jogo;
+}
+.ecommerce{
+    grid-area: ecommerce;
+    flex-direction: row-reverse;
+}
+.codechella{
+    grid-area: codechella;
+
+}
+.todo{
+    grid-area: todo;
+    flex-direction: row-reverse;
+}
+.logos-projetos{
     display: flex;
-    justify-content: center;
+}
+.logos-projetos img{
+    width: 1.3rem;
+}
+.section-item-experiencia{
+    gap:1rem;
+    display: flex;
+    justify-content: space-between;
 }
