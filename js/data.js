@@ -82,3 +82,53 @@ export const dataCardExperiencias = [
     },
 
 ]
+
+export const  dataCardHobbies = [
+    {
+        titulo: "Tocar",
+        img: "imagens/tocar-violao.png"
+    },
+    {
+        titulo: "Videogame",
+        img: "imagens/jagar.png"
+    },
+    {
+        titulo: "Séries e Filmes",
+        img: "imagens/assistir-filmes-series.png"
+    },
+    {
+        titulo: "Ouvir Música",
+        img: "imagens/ouvir-musica.png"
+    }
+]
+
+export const dataCardSkills = [
+    {
+        titulo: "Html5",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+    },
+    {
+        titulo: "Css",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+    },
+    {
+        titulo: "Javascript",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+    },
+    {
+        titulo: "TypeScript",
+        img: "imagens/ts-logo-128.png"
+    },
+    {
+        titulo: "NextJs",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
+    },
+    {
+        titulo: "React",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+    },
+    {
+        titulo: "VueJs",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg"
+    },
+]

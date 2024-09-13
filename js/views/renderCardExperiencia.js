@@ -1,5 +1,4 @@
-
-import {dataCardExperiencias} from './data.js'
+import {dataCardExperiencias} from '../data.js'
 export const renderCardExperiencia = (organizaCard, classItemExp, banner, titulo, urlRep, urlPag, logosTecDev, descricao) =>{
     const experienciaPlace = document.querySelector('[data-experiencia]')
     const logosHTML = logosTecDev.map(logo => `<img src="${logo}" alt="Logo de tecnologia"/>`).join('');
