@@ -1,6 +1,6 @@
 
 import {dataCardExperiencias} from './data.js'
-export const renderCardExperiencia = (organizaCard, classItemExp, banner, titulo, urlRep, urlPag, logosTecDev) =>{
+export const renderCardExperiencia = (organizaCard, classItemExp, banner, titulo, urlRep, urlPag, logosTecDev, descricao) =>{
     const experienciaPlace = document.querySelector('[data-experiencia]')
     const logosHTML = logosTecDev.map(logo => `<img src="${logo}" alt="Logo de tecnologia"/>`).join('');
     const templateCardExperiencia = `
@@ -10,7 +10,7 @@ export const renderCardExperiencia = (organizaCard, classItemExp, banner, titulo
         </div>
         <div class="div_botoes" id="${organizaCard}">
             <h3>${titulo}</h3>
-            <p>Desafio proposto pelo programa Oracle Next Education.</p>
+            <p>${descricao}</p>
             <div class="logos-projetos">
                ${logosHTML}               
             </div>                        
@@ -30,5 +30,5 @@ dataCardExperiencias.map((item,index)=>{
         organizaCard = "excecao-experiencia"
     }
 
-    renderCardExperiencia(organizaCard, item.class, item.banner, item.titulo, item.urlRep, item.urlPag, item.logosTecDev)
+    renderCardExperiencia(organizaCard, item.class, item.banner, item.titulo, item.urlRep, item.urlPag, item.logosTecDev, item.descricao)
 })
