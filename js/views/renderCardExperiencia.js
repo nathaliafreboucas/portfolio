@@ -25,9 +25,11 @@ export const renderCardExperiencia = (organizaCard, classItemExp, banner, titulo
 
 dataCardExperiencias.map((item,index)=>{
     let organizaCard = ""
+    let classItemExp = ""
     if((index+1)%2==0){
         organizaCard = "excecao-experiencia"
+        classItemExp = "direcao-contraria-organiza-card-experiencia"
     }
 
-    renderCardExperiencia(organizaCard, item.class, item.banner, item.titulo, item.urlRep, item.urlPag, item.logosTecDev, item.descricao)
+    renderCardExperiencia(organizaCard, classItemExp, item.banner, item.titulo, item.urlRep, item.urlPag, item.logosTecDev, item.descricao)
 })

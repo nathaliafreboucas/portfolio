@@ -4,17 +4,8 @@
     padding-top: 2rem;
 }
 .experiencia{
-    display: grid;
-    grid-template-areas: 
-        "jogo"
-        "ecommerce"
-        "codechella"
-        "todo"
-        "crip"
-        "barbearia"
-    ;
-    grid-template-columns: 100%;
-    grid-template-rows: auto auto auto auto auto auto;
+    display: flex;
+    flex-direction: column;
     gap: 5rem;
     padding: 5.5rem 3rem 0 3rem;
     width: 90%;
@@ -26,11 +17,6 @@
     box-shadow: 0px -5px 35px -9px rgba(0,0,0,0.7) inset;
     border: 1px solid #d1d1d1;
 }
-.barbearia{
-    grid-area: barbearia;
-    display: flex;
-    justify-content: center;
-}
 .div_imagem{width: 50%; }
 .div_imagem img{width: 100%; border-radius: 15px;}
 .div_imagem img:hover{ border: 5px solid #06045b; transition: 300ms;}
@@ -39,6 +25,9 @@
 #excecao-experiencia{
     display: flex;
     align-items: flex-start;
+}
+.direcao-contraria-organiza-card-experiencia{
+    flex-direction: row-reverse;
 }
 .experiencia_botoes{
     padding: 1rem ;
@@ -56,25 +45,6 @@
     background-color: #06045b;
     color: rgb(163, 163, 245);
     transition: 400ms;
-}
-.crip{
-    grid-area: crip;
-    flex-direction: row-reverse;
-}
-.jogo{
-    grid-area: jogo;
-}
-.ecommerce{
-    grid-area: ecommerce;
-    flex-direction: row-reverse;
-}
-.codechella{
-    grid-area: codechella;
-
-}
-.todo{
-    grid-area: todo;
-    flex-direction: row-reverse;
 }
 .logos-projetos{
     display: flex;
